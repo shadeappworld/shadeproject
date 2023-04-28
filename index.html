@@ -8,7 +8,9 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
 
         <!--=============== CSS ===============-->
-        <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/styles1.css">
+        <link rel="manifest" href="manifest.json" />
+
 
         <title>Shade App</title>
     </head>
@@ -16,8 +18,8 @@
         <!--=============== HEADER ===============-->
         <header class="header" id="header">
             <nav class="nav container">
-                <a href="#" class="nav__logo">Glad to see you</a>
-                <img class="nav__img" src="shade.png" alt="Shade Logo">
+                <a href="#" class="nav__logo">Shade App</a>
+                <img class="nav__img" src="contract.png" alt="Shade Logo">
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list">
@@ -36,7 +38,7 @@
                         </li>
 
                         <li class="nav__item">
-                            <a href="https://shadenotes.000webhostapp.com" class="nav__link">
+                            <a href="https://snote.w3spaces.com" class="nav__link">
                                 <i class='bx bx-book-alt nav__icon'></i>
                                 <span class="nav__name">Notes</span>
                             </a>
@@ -52,15 +54,20 @@
             <!--=============== HOME ===============-->
             <section class="container section section__height" id="home">
                 <h2 class="section__title"></h2>
-                <iframe allowfullscreen id="wallsio-iframe" src="https://my.walls.io/s6cyx?nobackground=1&amp;layout=fluid&amp;show_header=0&amp;initial_posts=1000" style="border:0;height:800px;width:100%" loading="lazy" title="My social wall"></iframe>
+                <script async src="https://walls.io/js/wallsio-widget-1.2.js" data-wallurl="https://my.walls.io/b6tbg?nobackground=1&amp;show_header=0&amp;initial_posts=900" data-title="My social wall" data-width="100%" data-autoheight="1" data-height="800" data-lazyload="1"></script>
             </section>
 
             <!--=============== PLAY ===============-->
             <section class="container section section__height" id="watch">
                 <h2 class="section__title"></h2>
-                <script async src="https://walls.io/js/wallsio-widget-1.2.js" data-wallurl="https://my.walls.io/x3wy4?nobackground=1&amp;show_header=0&amp;initial_posts=1000" data-title="My social wall" data-width="100%" data-autoheight="1" data-height="800" data-lazyload="1"></script>            </section>
+                <script async src="https://walls.io/js/wallsio-widget-1.2.js" data-wallurl="https://my.walls.io/w38yy?nobackground=1&amp;show_header=0&amp;initial_posts=900" data-width="100%" data-autoheight="1" data-height="800" data-lazyload="1"></script>            </section>
 
         <!--=============== MAIN JS ===============-->
-        <script src="assets/js/main.js"></script>
+        <script src="assets/js/main.js"></script><script>
+  if (typeof navigator.serviceWorker !== 'undefined') {
+    navigator.serviceWorker.register('sw.js')
+  }
+</script>
+
     </body>
 </html>
