@@ -1,6 +1,6 @@
 {
-  "name": "Shade Play",
-  "short_name": "Shade Play",
+  "name": "Shade App",
+  "short_name": "Shade",
   "start_url": "index.html",
   "scope": "./",
   "icons": [
@@ -15,12 +15,7 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#dbe5e2",
-  "background_color": "#000000",
-  "display": "standalone",
-  "description": "Playtime uninterrupted.",
-  "orientation": "natural",
-  "categories": [
-    "entertainment"
-  ]
+  "theme_color": "#ffd31d",
+  "background_color": "#333",
+  "display": "standalone"
 }

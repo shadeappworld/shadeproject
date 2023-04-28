@@ -1,10 +1,66 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>HTML Meta Tag</title>
-      <meta http-equiv = "refresh" content = "0; url = https://shadeapp2.goodbarber.app" />
-   </head>
-   <body>
-      <p>Getting necessary file.</p>
-   </body>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Shade App</title>
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">Glad to see you</a>
+                <img class="nav__img" src="shade.png" alt="Shade Logo">
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class='bx bx-joystick-alt nav__icon'></i>
+                                <span class="nav__name">Play</span>
+                            </a>
+                        </li>
+                        
+                        <li class="nav__item">
+                            <a href="#watch" class="nav__link">
+                                <i class='bx bx-movie-play nav__icon'></i>
+                                <span class="nav__name">Watch</span>
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="https://shadenotes.000webhostapp.com" class="nav__link">
+                                <i class='bx bx-book-alt nav__icon'></i>
+                                <span class="nav__name">Notes</span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <main>
+            <!--=============== HOME ===============-->
+            <section class="container section section__height" id="home">
+                <h2 class="section__title"></h2>
+                <iframe allowfullscreen id="wallsio-iframe" src="https://my.walls.io/s6cyx?nobackground=1&amp;layout=fluid&amp;show_header=0&amp;initial_posts=1000" style="border:0;height:800px;width:100%" loading="lazy" title="My social wall"></iframe>
+            </section>
+
+            <!--=============== PLAY ===============-->
+            <section class="container section section__height" id="watch">
+                <h2 class="section__title"></h2>
+                <script async src="https://walls.io/js/wallsio-widget-1.2.js" data-wallurl="https://my.walls.io/x3wy4?nobackground=1&amp;show_header=0&amp;initial_posts=1000" data-title="My social wall" data-width="100%" data-autoheight="1" data-height="800" data-lazyload="1"></script>            </section>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
