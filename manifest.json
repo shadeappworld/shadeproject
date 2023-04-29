@@ -15,7 +15,19 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#ffd31d",
+  "theme_color": "#c6f4ec",
   "background_color": "#333",
-  "display": "standalone"
+  "display": "standalone",
+  "description": "Ready to Shade It?",
+  "categories": [
+    "entertainment",
+    "productivity"
+  ],
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
+  "dir": "auto",
+  "orientation": "natural",
+  "lang": "en"
 }
