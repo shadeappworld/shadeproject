@@ -15,19 +15,19 @@
       "type": "image/png"
     }
   ],
-  "theme_color": "#c6f4ec",
+  "theme_color": "#b9f2f6",
   "background_color": "#333",
   "display": "standalone",
-  "description": "Ready to Shade It?",
-  "categories": [
-    "entertainment",
-    "productivity"
-  ],
+  "orientation": "natural",
+  "lang": "en",
   "display_override": [
     "standalone",
     "minimal-ui"
   ],
   "dir": "auto",
-  "orientation": "natural",
-  "lang": "en"
+  "description": "Ready to Shade It?",
+  "prefer_related_applications": true,
+  "categories": [
+    "entertainment"
+  ]
 }
